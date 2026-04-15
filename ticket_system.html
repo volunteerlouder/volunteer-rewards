@@ -589,17 +589,17 @@
        // Initialize events from localStorage or use default
         let events = JSON.parse(localStorage.getItem('events')) || [
         
-        
+            { id: 2, name: "Diana Krall", date: "April 4, 2026", tickets: 4, image: "DianaKrall.png" },
+            { id: 3, name: "Gillian Welch & David Rawlings", date: "April 9, 2026", tickets: 4, image: "GW.png" },
+            { id: 4, name: "Gillian Welch & David Rawlings", date: "April 10, 2026", tickets: 2, image: "GW.png" },
+            { id: 5, name: "Gillian Welch & David Rawlings", date: "April 11, 2026", tickets: 2, image: "GW.png" },
            
             { id: 7, name: "John Butler", date: "April 26, 2026", tickets: 4, image: "JB3.png" },
             { id: 8, name: "George Thorogood", date: "May 1, 2026", tickets: 4, image: "GT.png" },
         
             { id: 10, name: "Oteil & Friends", date: "May 15, 2026", tickets: 4, image: "Oteil.png" },
-        
+            { id: 11, name: "David Lee Roth", date: "June 3, 2026", tickets: 4, image: "DavidLeeRoth.png" },
             { id: 12, name: "Hudson River Music Festival", date: "June 21, 2026", tickets: 30, image: "Hudson 2.png" }
-            { id: 13, name: "The Heavy Heavy at Garcias", date: "July 16, 2026", tickets: 4, image: "Heavy.png" },
-            {id: 14, name: "The Phil Collins Story date", date: "October 21, 2026", tickets: 4, image: "Phil.png" }
-
         ];
 
         // Save events to localStorage
